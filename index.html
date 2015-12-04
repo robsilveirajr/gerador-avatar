@@ -26,56 +26,68 @@
 
     </div>
     <div class="col-md-8">
-        <div>
-            <div id="avatar">
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation"><a href="#Rosto" aria-controls="Rosto" role="tab" data-toggle="tab">Rosto</a></li>
+            <li role="presentation"><a href="#CabeloA" aria-controls="CabeloA" role="tab" data-toggle="tab">Cabelo A</a></li>
+            <li role="presentation"><a href="#Boca" aria-controls="Boca" role="tab" data-toggle="tab">Boca</a></li>
+            <li role="presentation"><a href="#Olhos" aria-controls="Olhos" role="tab" data-toggle="tab">Olhos</a></li>
+            <li role="presentation"><a href="#Nariz" aria-controls="Nariz" role="tab" data-toggle="tab">Nariz</a></li>
+            <li role="presentation"><a href="#Pelos" aria-controls="Pelos" role="tab" data-toggle="tab">Barba 1</a></li>
+            <li role="presentation"><a href="#Facial" aria-controls="Facial" role="tab" data-toggle="tab">Barba 2</a></li>
+            <li role="presentation"><a href="#Celha" aria-controls="Celha" role="tab" data-toggle="tab">Sombrancelha</a></li>
+            <li role="presentation"><a href="#CabeloB" aria-controls="CabeloB" role="tab" data-toggle="tab">Cabelo B</a></li>
 
-                <div class="col-md-2" id="Rosto">
-                    <img class="img-responsive" src="1_Rosto/1.png" />
-                    <img class="img-responsive" src="1_Rosto/2.png" />
-                </div>
-                <div class="col-md-2" id="CabeloA">
-                    <img class="img-responsive" src="2_Cabeloa/1.png" />
-                    <img class="img-responsive" src="2_Cabeloa/2.png" />
-                    <img class="img-responsive" src="2_Cabeloa/3.png" />
-                </div>
-                <div class="col-md-2" id="Boca">
-                    <img class="img-responsive" src="3_Boca/1.png" />
-                    <img class="img-responsive" src="3_Boca/2.png" />
-                </div>
-                <div class="col-md-2" id="Olhos">
-                    <img class="img-responsive" src="4_Olhos/1.png" />
-                    <img class="img-responsive" src="4_Olhos/2.png" />
-                </div>
-                <div class="col-md-2" id="Nariz">
-                    <img class="img-responsive" src="5_Nariz/1.png" />
-                </div>
-                <div class="col-md-2" id="Pelos">
-                    <img class="img-responsive" src="6_Pelos/1.png" />
-                    <img class="img-responsive" src="6_Pelos/2.png" />
-                    <img class="img-responsive" src="6_Pelos/3.png" />
-                </div>
-                <div class="col-md-2" id="Celha">
-                    <img class="img-responsive" src="7_Celha/1.png" />
-                    <img class="img-responsive" src="7_Celha/2.png" />
-                </div>
-                <div class="col-md-2" id="CabeloB">
-                    <img class="img-responsive" src="8_Cabelob/1.png" />
-                    <img class="img-responsive" src="8_Cabelob/2.png" />
-                    <img class="img-responsive" src="8_Cabelob/3.png" />
-                </div>
-                <div class="col-md-2" id="Facial">
-                    <img class="img-responsive" src="9_Facial/1.png" />
-                    <img class="img-responsive" src="9_Facial/2.png" />
-                    <img class="img-responsive" src="9_Facial/3.png" />
-                </div>
-            </div>
-            <div></div>
+        </ul>
 
-            <script>
-                $('#avatar').Cubexy();
-            </script>
+        <div id="avatar" class="tab-content">
+                <div role="tabpanel" class="tab-pane" id="Rosto">
+                    <img class="col-md-3" src="1_Rosto/1.png" />
+                    <img class="col-md-3" src="1_Rosto/2.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="CabeloA">
+                    <img class="col-md-3" src="2_Cabeloa/1.png" />
+                    <img class="col-md-3" src="2_Cabeloa/2.png" />
+                    <img class="col-md-3" src="2_Cabeloa/3.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="Boca">
+                    <img class="col-md-3" src="3_Boca/1.png" />
+                    <img class="col-md-3" src="3_Boca/2.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="Olhos">
+                    <img class="col-md-3" src="4_Olhos/1.png" />
+                    <img class="col-md-3" src="4_Olhos/2.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="Nariz">
+                    <img class="col-md-3" src="5_Nariz/1.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="Pelos">
+                    <img class="col-md-3" src="6_Pelos/1.png" />
+                    <img class="col-md-3" src="6_Pelos/2.png" />
+                    <img class="col-md-3" src="6_Pelos/3.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="Celha">
+                    <img class="col-md-3" src="7_Celha/1.png" />
+                    <img class="col-md-3" src="7_Celha/2.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="CabeloB">
+                    <img class="col-md-3" src="8_Cabelob/1.png" />
+                    <img class="col-md-3" src="8_Cabelob/2.png" />
+                    <img class="col-md-3" src="8_Cabelob/3.png" />
+                </div>
+                <div role="tabpanel" class="tab-pane" id="Facial">
+                    <img class="col-md-3" src="9_Facial/1.png" />
+                    <img class="col-md-3" src="9_Facial/2.png" />
+                    <img class="col-md-3" src="9_Facial/3.png" />
+                </div>
+
+                <div></div>
+
+                <script>
+                    $('#avatar').Cubexy();
+                </script>
         </div>
     </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 
 </html>
