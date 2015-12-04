@@ -126,7 +126,7 @@ $.fn.extend({Cubexy: function(opciones) {
 			$('#'+idDownload).click(function(){
 				var dataURL = canvas.toDataURL('image/png');
 				$('#'+idDownload).attr('href',dataURL);
-				$('#'+idDownload).attr('download',"Archivo.png");
+				$('#'+idDownload).attr('download',"avatar.png");
 				
 			});
 			$('#'+idPreview).click(function(){
